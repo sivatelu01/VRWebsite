@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/*home page css code*/
+.overall-bg-container-home {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.navitem01 {
+    font-family: Roboto !important;
+    font-weight: bold !important;
+    color: black !important;
+}
+
+
+.image-navbar {
+    height: 35px;
+    width: 60px;
+}
+
+.main-heading-home {
+    font-size: 35px;
+    font-family: Roboto;
+    color: white;
+    font-weight: bold;
+}
+
+.button-home {
+    height: 45px;
+    width: 120px;
+    color: white;
+    background-color: #1a2137;
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+
+/*products css code*/
+.overall-bg-container-products {
+    background-color: lightgray;
+    width: 100vw;
+}
+
+.main-heading-products {
+    color: #f8fcf7;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-container-image1-products {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.bg-container-image2-products {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-heading-products {
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 400px;
+    color: white;
+
+}
+
+.paragraph-products {
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.button-products {
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border-color: #ffffff;
+
+}
+
+
+
+/*tranding css code*/
+.overall-bg-container-trending {
+    background-color: #ffffff;
+}
+
+.main-heading-trending {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.main-heading-name-trending {
+    font-size: 20px;
+    font-family: Roboto;
+    color: #959ead;
+}
+
+.image-trending {
+    height: 140px;
+    width: 350px;
+}
+
+.main-heading-para-trending {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #323f4b;
+    font-weight: 600;
+
+}
+
+.style-trending {
+    font-size: 13px;
+    color: #1754a1;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.bg-container-trending {
+   background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.button-trending {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Roboto;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #1754a1;
+}
+
+
+/*kit section css code*/
+.overall-bg-container-Kit {
+    background-color: #f9fbfe;
+}
+
+.main-heading-Kit {
+    font-size: 28px;
+    font-family: Roboto;
+    color: #1f2933;
+    font-weight: bold;
+}
+
+.image-Kit {
+    height: 220px;
+    width: 200px;
+
+}
+
+.main-paragraph-Kit {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #1f2933;
+}
+
+
+/*  options and controls css code */
+.overall-bg-container-options-controllers {
+    background-color: white;
+}
+
+.image-options-controllers {
+    height: 280px;
+}
+
+.main-heading-options-controllers {
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.paragraph-options-controllers {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #7b8794;
+}
+
+.button-options-controllers {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    background-color: #1a2137;
+
+}
+
+
+
+/*features css code*/
+.main-heading-features1 {
+    font-size: 30px;
+    color: #1f2933;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.bg-container-features {
+    background-color: #a7d2d4;
+}
+
+.main-heading-featurename {
+    font-size: 20px;
+    color: #1f2933;
+    font-family: Roboto;
+    font-weight: 510;
+}
+
+.image-features {
+    height: 70px;
+    width: 70px;
+}
+
+.paragraph-features {
+    font-size: 15px;
+    color: #7b8794;
+    font-family: Roboto;
+}
+
+.span-features {
+    font-weight: bold;
+    font-style: italic;
+    color: #1f2933;
+}
+
+
+/*Reach us css code*/
+
+.overall-bg-container-footer {
+    background-color: #19232d;
+
+}
+
+.main-image-footer {
+    height: 40px;
+    width: 60px;
+}
+
+.icon-size-footer {
+    font-size: 25px;
+    color: #5a7184;
+}
+
+.google-icon-footer {
+    height: 45px;
+    width: 45px;
+    background-color: #202b36;
+    border-radius: 40px;
+    padding-right: 20px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-top: 12px;
+}
+
+.main-heading-footer {
+    color: #5a7184;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.main-heading01-footer {
+    color: #5a7184;
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.line-footer {
+    border-color: #5a7184;
+}
+
+.main-heading03-footer {
+    color: #959ead;
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+}
